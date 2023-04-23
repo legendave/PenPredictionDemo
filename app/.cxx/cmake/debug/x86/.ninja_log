@@ -1,0 +1,5 @@
+# ninja log v5
+0	546	1639979608	CMakeFiles/native-lib-ts.dir/src/main/cpp/native-lib-ts.cpp.o	bbc166abfccb73f3
+547	605	1639979609	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib-ts.so	514cdc85dcc4422c
+0	13	0	clean	556ca9b6f7f1fc3f
+1	8	0	clean	556ca9b6f7f1fc3f

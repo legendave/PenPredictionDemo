@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/xiaguosen/Downloads/lenovo/code/PenPredictionDemo/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/xiaguosen/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/xiaguosen/Downloads/lenovo/code/PenPredictionDemo/app/.cxx/cmake/debug/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/xiaguosen/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/xiaguosen/Downloads/lenovo/code/PenPredictionDemo/app/.cxx/cmake/debug/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib-ts-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "/Users/xiaguosen/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/xiaguosen/Downloads/lenovo/code/PenPredictionDemo/app/.cxx/cmake/debug/arm64-v8a",
+        "native-lib-ts"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "native-lib-ts",
+      "output": "/Users/xiaguosen/Downloads/lenovo/code/PenPredictionDemo/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib-ts.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

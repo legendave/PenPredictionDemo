@@ -1,0 +1,1 @@
+/Users/xiaguosen/Downloads/lenovo/code/PenPredictionDemo/app/build/intermediates/cmake/debug/obj/arm64-v8a

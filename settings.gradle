@@ -1,0 +1,4 @@
+
+rootProject.name = "LRPenPredictionDemo"
+include ':app'
+include ':prediction'

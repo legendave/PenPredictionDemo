@@ -1,0 +1,9 @@
+# ninja log v5
+0	441	1639979679	CMakeFiles/native-lib-ts.dir/src/main/cpp/native-lib-ts.cpp.o	dcd321d05a51b39
+442	481	1639979679	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib-ts.so	6a30154a408f3fc6
+0	8	0	clean	556ca9b6f7f1fc3f
+2	513	1639982687	CMakeFiles/native-lib-ts.dir/src/main/cpp/native-lib-ts.cpp.o	dcd321d05a51b39
+513	571	1639982687	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib-ts.so	6a30154a408f3fc6
+0	9	0	clean	556ca9b6f7f1fc3f
+4	969	1639982873	CMakeFiles/native-lib-ts.dir/src/main/cpp/native-lib-ts.cpp.o	dcd321d05a51b39
+969	1066	1639982873	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib-ts.so	6a30154a408f3fc6

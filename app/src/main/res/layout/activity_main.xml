@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clear"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+         />
+
+    <Button
+        android:id="@+id/prediction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open"
+        android:layout_toRightOf="@+id/clear"
+        android:layout_alignParentTop="true"
+        />
+    <Button
+        android:id="@+id/noprediction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="close"
+        android:layout_toRightOf="@+id/prediction"
+        android:layout_alignParentTop="true"
+        />
+    <Button
+        android:id="@+id/dda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="openDda"
+        android:layout_toRightOf="@+id/noprediction"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/nodda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="closeDda"
+        android:layout_toRightOf="@+id/dda"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        />
+    <com.lenovo.lrpenpredictiondemo.HandWriteView
+        android:id="@+id/handwriteview"
+        android:layout_below="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

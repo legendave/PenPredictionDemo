@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/Users/xiaguosen/Downloads/lenovo/code/PenPredictionDemo/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/xiaguosen/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/xiaguosen/Downloads/lenovo/code/PenPredictionDemo/app/.cxx/cmake/debug/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/xiaguosen/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/xiaguosen/Downloads/lenovo/code/PenPredictionDemo/app/.cxx/cmake/debug/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib-ts-Debug-x86": {
+      "artifactName": "native-lib-ts",
+      "buildCommandComponents": [
+        "/Users/xiaguosen/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/xiaguosen/Downloads/lenovo/code/PenPredictionDemo/app/.cxx/cmake/debug/x86",
+        "native-lib-ts"
+      ],
+      "abi": "x86",
+      "output": "/Users/xiaguosen/Downloads/lenovo/code/PenPredictionDemo/app/build/intermediates/cmake/debug/obj/x86/libnative-lib-ts.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,1 @@
+/Users/xiaguosen/Downloads/lenovo/code/PenPredictionDemo/app/build/intermediates/cmake/debug/obj/armeabi-v7a
