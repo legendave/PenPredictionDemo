@@ -83,7 +83,7 @@ public class HandWriteView extends View {
         predictionPaint.setStrokeCap(Paint.Cap.ROUND);
         predictionPaint.setStrokeJoin(Paint.Join.ROUND);
         predictionPaint.setColor(Color.RED);
-        predictionPaint.setStrokeWidth(8);
+        predictionPaint.setStrokeWidth(3);
         mPath = new Path();
 
         //add for prediction begin
