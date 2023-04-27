@@ -72,7 +72,7 @@ public class HandWriteView extends View {
         mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setStrokeCap(Paint.Cap.ROUND);
         mPaint.setStrokeJoin(Paint.Join.ROUND);
-        mPaint.setColor(Color.BLACK);
+        mPaint.setColor(Color.GREEN);
         mPaint.setStrokeWidth(3);
 
 
@@ -163,6 +163,7 @@ public class HandWriteView extends View {
                 for (int i = 0; i < historySize; i++) {
                     x =  event.getHistoricalX(i);
                     y= event.getHistoricalY(i);
+                    Log.d(TAG, String.format("Dave: x,y=%f,%f", x, y));     // DaveAdd: Recording;
                     touch_move(x, y, false);
                     invalidate();
                 }
